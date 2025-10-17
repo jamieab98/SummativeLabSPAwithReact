@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
     return(
-        <h3>This is the Header</h3>
+        <h2>Personal Project Showcase App</h2>
     )
 }
 
