@@ -1,7 +1,10 @@
+import styles from './Header.module.css'
 
 function Header() {
     return(
-        <h2>Personal Project Showcase App</h2>
+        <div className={styles.header}>
+            <h2>Personal Project Showcase App</h2>
+        </div>
     )
 }
 

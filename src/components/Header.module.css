@@ -1,0 +1,10 @@
+.header{
+    background-color: teal;
+    color: rgb(253, 242, 222);
+    border: 1px solid black;
+    height: 50px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
