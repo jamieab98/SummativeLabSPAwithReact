@@ -1,13 +1,13 @@
 import NewProject from "./NewProject"
 import ProjectDisplay from "./ProjectDisplay"
+import styles from './Body.module.css'
 
 function Body() {
     return(
-        <>
-            <h4>Body Component</h4>
+        <div className={styles.body}>
             <NewProject/>
             <ProjectDisplay/>
-        </>
+        </div>
     )
 }
 
