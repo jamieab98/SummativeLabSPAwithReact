@@ -1,9 +1,12 @@
-import React from "react";
+import NewProject from "./NewProject"
+import ProjectDisplay from "./ProjectDisplay"
 
 function Body() {
     return(
         <>
-            <div>Body Component</div>
+            <h4>Body Component</h4>
+            <NewProject/>
+            <ProjectDisplay/>
         </>
     )
 }
