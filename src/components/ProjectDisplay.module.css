@@ -1,4 +1,7 @@
 .ProjectDisplay{
     text-align: left;
-    border: 1px solid blue;
+    margin: 3%;
+    border: 1px solid rgb(253, 141, 223);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
