@@ -1,0 +1,12 @@
+.SearchProject{
+    border: 1px solid black;
+    height: 25px;
+    background-color: rgb(253, 141, 223);
+}
+
+.projectsearch{
+    width: 95%;
+    margin-left: 1%;
+    border: 1px solid rgb(253, 141, 223);
+    border-radius: 5px;
+}
