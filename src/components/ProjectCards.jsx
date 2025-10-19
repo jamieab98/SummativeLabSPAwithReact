@@ -1,9 +1,19 @@
+import projectData from "../projectData"
 
 function ProjectCards() {
     return(
         <>
-            <div>Project 1</div>
-            <div>Description</div>
+            {projectData.map((project) => (
+                <div>
+                    <div>
+                        <button>Click to go to the project</button>
+                    </div>
+                    <div>
+                        <h4>{project.title}</h4>
+                        <div>{project.description}</div>
+                    </div>
+                </div>
+            ))}
         </>
     )
 }
