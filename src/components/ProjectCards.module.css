@@ -13,7 +13,7 @@
 .projectText{
     display: flex;
     flex-direction: column;
-    padding-top: 7%;
+    padding-top: 20px;
 }
 
 .projectTitle{
