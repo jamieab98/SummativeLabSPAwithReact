@@ -1,6 +1,6 @@
 .ProjectDisplay{
     text-align: left;
     margin: 3%;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
 }
