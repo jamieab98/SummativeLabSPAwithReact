@@ -1,0 +1,21 @@
+.project{
+    display: flex;
+    border: 1px solid black;
+    height: 100px;
+}
+
+.projectButton{
+    height: 75px;
+    width: 75px;
+    margin: 10px;
+}
+
+.projectText{
+    display: flex;
+    flex-direction: column;
+    padding-top: 7%;
+}
+
+.projectTitle{
+    margin: 0px 0px 5px 0px;
+}
