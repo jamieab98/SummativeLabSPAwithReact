@@ -8,13 +8,14 @@ function ProjectDisplay({data}) {
 
     const updateUserSearch = (e) => {
         setUserSearch(e.target.value);
-        console.log(e.target.value)
     }
+
+    const displayData = data.filter((project) => project.title.toLowerCase().includes(userSearch.toLowerCase()));
 
     return(
         <div className={styles.ProjectDisplay}>
             <SearchProject userSearch={userSearch} updateUserSearch={updateUserSearch}/>
-            <ProjectCards data={data}/>
+            <ProjectCards data={displayData}/>
         </div>
     )
 }
