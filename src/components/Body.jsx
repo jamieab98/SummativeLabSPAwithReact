@@ -18,8 +18,9 @@ function Body() {
     const submitForm = (event) => {
         event.preventDefault();
         setData([...data, {title : newTitle, description : newDescription}]);
+        setNewTitle("");
+        setNewDescription("");
     }
-
     
     return(
         <div className={styles.body}>
