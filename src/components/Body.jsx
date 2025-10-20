@@ -18,14 +18,13 @@ function Body() {
     const submitForm = (event) => {
         event.preventDefault();
         setData([...data, {title : newTitle, description : newDescription}]);
-        console.log(data);
     }
 
     
     return(
         <div className={styles.body}>
             <NewProject updateTitle={updateTitle} updateDescription={updateDescription} submitForm={submitForm} newTitle={newTitle} newDescription={newDescription}/>
-            <ProjectDisplay/>
+            <ProjectDisplay data={data}/>
         </div>
     )
 }

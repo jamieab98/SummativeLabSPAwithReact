@@ -1,10 +1,9 @@
-import projectData from "../projectData"
 import styles from "./ProjectCards.module.css"
 
-function ProjectCards() {
+function ProjectCards({data}) {
     return(
         <>
-            {projectData.map((project, index) => (
+            {data.map((project, index) => (
                 <div className={styles.project} key={index}>
                     <div>
                         <button className={styles.projectButton}>Click to go to the project</button>
