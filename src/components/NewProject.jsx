@@ -1,24 +1,6 @@
 import styles from './NewProject.module.css'
-import { useState } from 'react'
-import projectData from '../projectData'
 
-function NewProject() {
-    const [newTitle, setNewTitle] = useState("");
-    const [newDescription, setNewDescription] = useState("");
-    const [data, setData] = useState(projectData);
-
-    const updateTitle = (e) => {
-        setNewTitle(e.target.value);
-    };
-    const updateDescription = (e) => {
-        setNewDescription(e.target.value);
-    };
-    const submitForm = (event) => {
-        event.preventDefault();
-        setData([...data, {title: newTitle, description: newDescription}])
-        console.log(data)
-    };
-
+function NewProject({submitForm, updateTitle, updateDescription, newTitle, newDescription}) {
 
     return(
         <div className={styles.NewProject}>
