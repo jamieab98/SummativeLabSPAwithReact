@@ -1,6 +1,6 @@
 import NewProject from "./NewProject"
 import ProjectDisplay from "./ProjectDisplay"
-import styles from './Body.module.css'
+import styles from './componentstyles/Body.module.css'
 import projectData from "../projectData"
 import { useState } from "react"
 

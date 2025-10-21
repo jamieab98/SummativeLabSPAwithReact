@@ -1,6 +1,6 @@
 import SearchProject from "./SearchProject"
 import ProjectCards from "./ProjectCards"
-import styles from "./ProjectDisplay.module.css"
+import styles from "./componentstyles/ProjectDisplay.module.css"
 import { useState } from "react";
 
 function ProjectDisplay({data}) {

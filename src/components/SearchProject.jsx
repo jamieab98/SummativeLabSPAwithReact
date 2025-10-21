@@ -1,4 +1,4 @@
-import styles from "./SearchProject.module.css"
+import styles from "./componentstyles/SearchProject.module.css"
 
 function SearchProject({userSearch, updateUserSearch}) {
 

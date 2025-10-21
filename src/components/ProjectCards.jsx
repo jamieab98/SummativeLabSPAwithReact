@@ -1,4 +1,4 @@
-import styles from "./ProjectCards.module.css"
+import styles from "./componentstyles/ProjectCards.module.css"
 
 function ProjectCards({data}) {
 

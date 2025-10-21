@@ -1,4 +1,4 @@
-import styles from './NewProject.module.css'
+import styles from './componentstyles/NewProject.module.css'
 
 function NewProject({submitForm, updateTitle, updateDescription, updateLink, newTitle, newDescription, newLink}) {
 
